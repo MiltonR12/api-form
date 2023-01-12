@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS formulario;
+
+USE formulario;
+
+CREATE TABLE inscripcion (
+  id INT(30) PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) DEFAULT NULL,
+  number INT(20) NOT NULL,
+  integrantes VARCHAR(300) DEFAULT NULL,
+  nicks VARCHAR(300) DEFAULT NULL,
+  logo VARCHAR(100) DEFAULT NULL,
+  comprobante VARCHAR(100) DEFAULT NULL
+);
+
+DESCRIBE inscripcion;
